@@ -22,7 +22,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: .
-        file: ./docker/Dockerfile.userApp
+        file: ./Dockerfile
         push: true
         tags: omjicoder123/paytm-app:latest  
 
